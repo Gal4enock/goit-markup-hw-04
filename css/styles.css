@@ -371,17 +371,40 @@ header {
 .team {
     background-color:#F5F4FA;
 }
-.section-team-list li {
+.section-team-list>li {
     width: 270px;
     background-color: var(--other-color);
 }
-.section-team-list li:not(:last-child) {
+.section-team-list>li:not(:last-child) {
     margin-right: 30px;
 }
 .team-detail {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
+}
+.social-item-svg {
+    height: 20px;
+    width: 20px; 
+}
+.social-links-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+.social-item:not(:last-child) {
+    margin-right: 10px;
+}
+.social-link {
+    display: block;
+    background-color: var(--other-color);
+    background-size: 44px;
+    border-radius: 50%;
+    fill: var(--primery-text-color);
+}
+.social-link:hover, .social-link:focus {
+    fill: var(--other-color);
+    background-color: var(--accent-color);
 }
 /* Позиционирование страницы Портфолио */
 .button-list {
