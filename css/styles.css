@@ -386,6 +386,7 @@ header {
 .social-item-svg {
     height: 20px;
     width: 20px; 
+    vertical-align: middle;
 }
 .social-links-list {
     display: flex;
