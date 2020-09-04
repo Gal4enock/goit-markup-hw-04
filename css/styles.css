@@ -397,7 +397,9 @@ header {
     margin-right: 10px;
 }
 .social-link {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: var(--other-color);
     width: 44px;
     height: 44px;
