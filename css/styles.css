@@ -357,6 +357,12 @@ header {
 .address-section {
     margin-left: auto;
 }
+.site-address-svg {
+    height: 18px;
+    width: 16px;
+    fill: var(--primery-text-color)
+}
+
 /* Позиционирование Наша Команда */
 .section-team-list {
     display: flex;
