@@ -374,6 +374,7 @@ header {
 .section-team-list>li {
     width: 270px;
     background-color: var(--other-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .section-team-list>li:not(:last-child) {
     margin-right: 30px;
@@ -410,6 +411,34 @@ header {
 .social-link:hover, .social-link:focus {
     fill: var(--other-color);
     background-color: var(--accent-color);
+}
+/* Разметка и позиционирование Постоянные Клиенты */
+.clients-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clients-link {
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: var(--primery-text-color);
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    width: 170px;
+    height: 90px;
+}
+.clients-item:not(:last-child) {
+    margin-right: 30px;
+}
+.clients-link:hover, .clients-link:focus {
+    fill: var(--accent-color);
+    border: 1px solid var(--accent-color);
+}
+.clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 /* Позиционирование страницы Портфолио */
 .button-list {
