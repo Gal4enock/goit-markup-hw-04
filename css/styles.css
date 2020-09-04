@@ -121,7 +121,11 @@ button:hover, button:focus {
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
-     }
+    background-image: url(../img/Img\ Overlayoverlay.png), url(../img/Background.jpg);
+    max-width: 1600px;
+    background-size: cover;
+}
+
 .hero-title-button {
     max-width: 696px;
     text-align: center;
@@ -272,6 +276,26 @@ margin-bottom: 10px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+}
+.satelit::before {
+    background-image: url(../img/antenna.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.clock::before {
+    background-image: url(../img/clock\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.comp::before {
+    background-image: url(../img/diagram.svg);
+    background-repeat: no-repeat;
+    background-position: center;   
+}
+.astronaut::before {
+    background-image: url(../img/astronaut.svg);
+    background-repeat: no-repeat;
+    background-position: center; 
 }
 /* позиционирование Чем мы занимаемся */
 .profession-name {
