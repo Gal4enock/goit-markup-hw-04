@@ -398,6 +398,8 @@ header {
 .social-link {
     display: block;
     background-color: var(--other-color);
+    width: 44px;
+    height: 44px;
     background-size: 44px;
     border-radius: 50%;
     fill: var(--primery-text-color);
