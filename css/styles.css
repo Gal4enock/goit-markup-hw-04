@@ -273,7 +273,6 @@ margin-bottom: 10px;
     height: 120px;
     background-color: #F5F4FA;
     margin-bottom: 30px;
-    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -358,9 +357,11 @@ header {
     margin-left: auto;
 }
 .site-address-svg {
-    height: 18px;
-    width: 16px;
-    fill: var(--primery-text-color)
+    height: 16px;
+    width: 18px;
+    fill: currentColor;
+    vertical-align: middle;
+    margin-right: 10px;
 }
 
 /* Позиционирование Наша Команда */
