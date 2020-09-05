@@ -165,8 +165,7 @@ button:hover, button:focus {
     height: 1px !important; 
     width: 1px !important; 
     overflow: hidden;
-    margin-bottom: 94px;}
-
+}
 .item-title {
 font-weight: 700;
 text-transform: uppercase;
@@ -248,12 +247,37 @@ address {
     margin-left: auto;
     margin-right: auto;
 }
-/* позиционирование Преимуществ */
-.advant, .todo, .team {
-    padding-top: 94px;  
-}
-.todo, .team {
+.padding {
+    padding-top: 94px;
     padding-bottom: 94px;
+}
+.footer-link-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--other-color);
+    margin-bottom: 20px;
+}
+footer .social-link {
+    background-color:rgba(255, 255, 255, 0.1);
+}
+footer .social-item-svg{
+    fill: var(--other-color);
+}
+footer .social-links-list{
+    justify-content: left;
+}
+.footer {
+    display: flex;
+}
+.footer-item:not(:last-child) {
+    margin-right: 30px;
+}
+/* позиционирование Преимуществ */
+.advant {
+    padding-bottom: 0px;  
 }
 .item-title {
 margin-bottom: 10px;
@@ -303,13 +327,8 @@ margin-bottom: 10px;
     margin-top: 10px;
 }
 .footer-item {
-    /* padding-top: 60px;
-    padding-bottom: 60px; */
     width: 270px;
    }
-.button-list {
-    margin-top: 94px;  
-}
 .button {
     font-weight: 500;
 }
@@ -438,10 +457,6 @@ header {
     fill: var(--accent-color);
     border: 1px solid var(--accent-color);
 }
-.clients {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
 /* Позиционирование страницы Портфолио */
 .button-list {
     display: flex;   
@@ -468,10 +483,6 @@ header {
 .card-description {
     border: 1px solid #EEEEEE;
     padding: 20px 24px;
-}
-.example {
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 .exampel-list a {
     display: block;
